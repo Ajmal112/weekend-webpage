@@ -563,20 +563,3 @@ input[type=email]::placeholder {
     width:150px;
     height:30px;
 }
-.footerlinksdiv {
-    display: flex;
-    gap:50px;
-    position: relative;
-    right:650px;
-    top:50px;
-}
-.footerimg1 {
-    width:100px;
-    height:40px;
-}
-.buttonsfooter {
-    padding-left:650px;
-}
-.footerh1linklast {
-    display: flex;
-}
