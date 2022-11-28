@@ -1,0 +1,582 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+body {
+    scroll-behavior: smooth;
+    height:3000px;
+    width:1400px;
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    padding-top:55px;
+    font-size: 10px;
+}
+.navlinks {
+    display:flex;
+    gap:25px;
+    padding-right:150px;
+   align-items: center;
+   padding-top:30px;
+   color:white;
+   font-family: 'okra', Helvetica, sans-serif;
+   font-size: 14px;
+   opacity: 0.9;
+   cursor: pointer;
+   
+}
+.gettheapp {
+    padding-left:190px;
+    padding-top:30px;
+    display:flex;
+    color:white;
+    font-family: 'okra', Helvetica, sans-serif;
+    cursor: pointer;
+}
+.heropage {
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+   background-size:cover;
+   width:1130px;
+   height:470px;
+   margin-left:150px;
+   transform: scale(1.4);
+}
+.topmenu {
+    width:7px;
+    height:7px;
+}
+.logoimg {
+    width:200px;
+    height:40px;
+   margin-left:465px;
+   margin-top:100px;
+   
+}
+.heropara {
+font-family: 'okra', Helvetica, sans-serif;
+color:white;
+text-align: center;
+font-size: 25px;
+margin-top: 20px;
+}
+.inputheropage {
+    width:200px;
+    height:40px;
+   margin-left:465px;
+   margin-top:100px;
+   display:flex;
+   background-color: white;
+   color:black;
+}
+input[type=search] {
+    width:270px;
+    height:40px; 
+  border-left:1px solid black;
+ border:none;
+ padding-left:10px;
+ border-radius: 10px;
+ position: relative;
+ right:20px;
+ cursor: pointer;
+}
+input[type=search]::placeholder {
+    font-size: 10px;
+}
+input[type=search1] {
+    width:150px;
+    height:37px; 
+    border:none;
+    padding-left:5px;
+    cursor: pointer;
+}
+input[type=search1]::placeholder {
+font-size: 10px;
+
+}
+.searchiconimg {
+    padding-top:10px;
+    padding-left:10px;
+    background-color: white;
+    width:30px;
+    height:20px;
+    padding: 10px;
+    position: relative;
+    right:10px;
+  
+}
+
+.inputheropage {
+    border-radius: 10px;
+    display: flex;
+}
+.location {
+    display: flex;
+   justify-content: center;
+   cursor: pointer;
+}
+.locationlogo {
+    margin-top:4px;
+    margin-left:5px;
+}
+.locationlogoimg {
+   
+    width:15px;
+    height:15px;
+    padding-top:7px;
+    padding-left:10px;
+}
+.arrowimg {
+    margin-top:12px;
+    position: relative;
+    right:10px;
+   padding-right:5px;
+    border-right:1px solid black;
+    justify-content: center;
+}
+.inputheropage {
+    position: relative;
+    right:150px;
+    bottom:80px;
+    
+}
+.secondpage {
+    font-family: 'okra', Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+   gap:30px;
+   position: relative;
+   top:150px;
+   
+}
+.orderonline ,.dining,.nightlifeandclubs {
+box-shadow: 0px 0px 0.8px;
+   
+   border-radius: 20px;
+ width:350px;
+ height:250px;
+ transition: all 0.3s;
+    transition-timing-function: cubic-bezier(.17,.67,.58,.37);
+    cursor: pointer;
+}
+.orderonline:hover ,.dining:hover,.nightlifeandclubs:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.orderonlineimg {
+    width:350px;
+    height:150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  
+}
+.orderonlineh4 ,.orderonlinepara {
+    padding-top:10px;
+    padding-left:20px;
+
+}
+.orderonlineh4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+.orderonlinepara {
+    opacity: 0.7;
+}
+.thirdpage {
+    padding-top:250px;
+    padding-left:20px;
+    font-family: 'okra', Helvetica, sans-serif;
+
+}
+.paraarrowlinkdiv, .linkarrow{
+    display: flex;
+    opacity: 0.9;
+    justify-content: center;
+    
+}
+.linkarrow {
+    color: orangered;
+}
+.thirdpagearrow {
+    transform: rotate(270deg);
+    opacity: 0.7;
+}
+.thirdpageh1 {
+    padding-left:80px;
+    font-weight: 300;
+}
+.thirdpagepara {
+    padding-right:100px;
+    font-size: 20px;
+    opacity:0.7;
+}
+.imagesdivthirdpage {
+    margin-top:100px;
+     
+}
+.newintownimg {
+    width:267px;
+    height:300px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.paralinktthirddownpage {
+    display: flex;
+    padding-left:5px;
+    position: relative;
+    bottom:60px;
+    left:11px;
+    color:white;
+}
+.newintownarrow {
+    transform: rotate(270deg);
+    margin-left:10px;
+}
+.newintownh3 {
+    padding:5px;
+    position: relative;
+    bottom:60px;
+    left:10px;
+    color:white;
+}
+.imagesdivthirdpage {
+    display: flex;
+    justify-content: center;
+    gap:30px;
+   
+}
+.googlearrowicon {
+    width:15px;
+    height:10px;
+    padding-left:240px;
+    position: relative;
+    bottom:10px;
+}
+.googlearrowicon1 {
+    padding-left:120px;
+    width:20px;
+    height:20px;
+   position: relative;
+   bottom:20px;
+   right:10px;
+}  
+.paraicon {
+    display: flex;
+    
+}
+.paralocation {
+    opacity:0.7;
+    padding-top:5px;
+    padding-top:5px;
+   padding-left:15px ;
+}
+.locationh3 {
+    font-size: 20px;
+    padding-top:12px;
+    padding-left:10px ;
+    font-weight: 100;
+}
+.fourthpageh1 {
+    font-weight: 100;
+    padding-left:150px;
+}
+.jubileehills {
+    box-shadow: 0px 0px 1px ;
+    margin-right:1100px;
+    align-items: center;
+    height:70px;
+    border-radius: 5px;
+    position: relative;
+    top:50px;
+    left:150px;
+    cursor: pointer;
+}
+.jubileehills:hover,.gachibowli:hover ,
+.banjarahills:hover,.hitechcity:hover,.madhapur:hover,.seemore:hover,
+.kondapur:hover,.begumpet:hover,.kukatpally:hover {
+    box-shadow: 0px 0px 2px;
+    
+}
+.gachibowli {
+    box-shadow: 0px 0px 1px ;
+    margin-right:1100px;
+    align-items: center;
+    height:70px;
+    border-radius: 5px;
+    position: relative;
+    bottom:20px;
+    left:550px;
+    cursor: pointer;
+}
+.banjarahills {
+    box-shadow: 0px 0px 1px ;
+    margin-right:1100px;
+    align-items: center;
+    height:70px;
+    border-radius: 5px;
+    position: relative;
+    bottom:90px;
+    left:950px;
+    cursor: pointer;
+}
+.hitechcity {
+    box-shadow: 0px 0px 1px ;
+    margin-right:1100px;
+    align-items: center;
+    height:70px;
+    border-radius: 5px;
+    position: relative;
+    bottom:50px;
+    left:150px;
+    cursor: pointer;
+}
+.madhapur {
+    box-shadow: 0px 0px 1px ;
+    margin-right:1100px;
+    align-items: center;
+    height:70px;
+    border-radius: 5px;
+    position: relative;
+    bottom:120px;
+    left:550px;
+    cursor: pointer;
+}
+.kondapur {
+    box-shadow: 0px 0px 1px ;
+    margin-right:1100px;
+    align-items: center;
+    height:70px;
+    border-radius: 5px;
+    position: relative;
+    bottom:190px;
+    left:950px;
+    cursor: pointer;
+}
+.kukatpally {
+    box-shadow: 0px 0px 1px ;
+    margin-right:1100px;
+    align-items: center;
+    height:70px;
+    border-radius: 5px;
+    position: relative;
+    bottom:150px;
+    left:150px;
+    cursor: pointer;
+}
+.begumpet {
+    box-shadow: 0px 0px 1px ;
+    margin-right:1100px;
+    align-items: center;
+    height:70px;
+    border-radius: 5px;
+    position: relative;
+    bottom:220px;
+    left:550px;
+    cursor: pointer;
+}
+.seemore {
+    box-shadow: 0px 0px 1px ;
+    margin-right:1100px;
+    align-items: center;
+    height:50px;
+    padding:10px;
+    border-radius: 5px;
+    position: relative;
+    bottom:290px;
+    left:950px;
+    cursor: pointer;
+}
+.mobileviewimg {
+    width:250px;
+    height:270px;
+}
+.fifthpage {
+    background-color:#fffbf7 ;
+    width:100%;
+    height:480px;
+    display: flex;
+}
+.downloadfrom ,.emailsend,
+.radiochange,.emailchange,
+.phonechange{
+    display:flex;
+
+}
+.mobileview {
+    margin-top:120px;
+    position:relative;
+    left:400px;
+}
+.downloadfromimg1,.downloadfromimg2 {
+    width:137px;
+    height:40px;
+    
+    
+}
+.downloadfromimg2 {
+    margin-left:20px;
+}
+.lettersfifthpage {
+    margin-left:20px;
+}
+.fifthpageh1 {
+    font-weight: 100;
+    font-size: 45px;
+}
+.fifthpagepara {
+    font-weight: 100;
+    font-size: 16px;
+    opacity:0.5;
+}
+.lettersfifthpage {
+    margin-top:70px;
+    padding-left:30px;
+    position:relative;
+    left:400px;
+}
+.downloadfrompara {
+    opacity:0.5;
+}
+
+.radio {
+    accent-color:red;
+    cursor: pointer;
+}
+.email {
+    width:252px;
+    height:38px;
+    border-radius: 5px;
+    border: 0.1rem solid rgb(207, 207, 207);
+    
+}
+input[type=email]::placeholder {
+    font-size: 15px;
+    opacity:0.7;
+    padding-left:10px;
+    
+}
+.sharebtn {
+    width:120px;
+    background-color:rgb(239, 79, 95);
+    color:white;
+    border-radius: 5px;
+    border:rgb(239, 79, 95);
+    cursor: pointer;
+}
+.sixthpage {
+    background-color: #fcfcfc;
+  
+}
+.sixthpageh1 {
+    padding-left:150px;
+    padding-top:50px;
+    font-weight: 200;
+}
+/* accordian start*/
+
+  .accordion {
+    background-color: white;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    position: relative;
+    width: 1098px;
+    left:150px;
+   margin-top:25px;
+  }
+  
+  .active, .accordion:hover {
+    background-color: white;
+  }
+  
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    width: 1098px;
+    position: relative;
+    left:150px;
+  }
+  /*accordian end*/
+.countryselect {
+    display: flex;
+    
+}
+.footerbtn1 {
+    border-radius: 10px;
+    border:1px solid grey;
+    background-color: white;
+   
+}
+.indiaimg {
+    width:35px;
+    height:35px;
+    padding:5px;
+    padding-bottom:7px;
+}
+.countryname {
+    padding-top:13px;
+    padding-left:5px;
+}
+.downarrow2 {
+    width:40px;
+    height:40px;
+    padding-top:3px;
+}
+.footer {
+    background-color:#f8f8f8 ;
+    width:1200px;
+    height:455px;
+    
+}
+.footernav {
+    display: flex;
+    justify-content: space-around;
+    padding-top:50px;
+
+}
+.footerlogoimg {
+    padding-left:600px;
+    width:150px;
+    height:30px;
+}
+.footerlinksdiv {
+    display: flex;
+    gap:50px;
+    position: relative;
+    right:650px;
+    top:50px;
+}
+.footerimg1 {
+    width:100px;
+    height:40px;
+}
+.buttonsfooter {
+    padding-left:650px;
+}
+.footerh1linklast {
+    display: flex;
+}
